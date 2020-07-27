@@ -27,5 +27,23 @@ public class Solution {
             }
         for (int i = 0; i < arr.length; i++)
             System.out.print(arr[i] + " ");
+
+        // without array
+//        if (num1 < num2) {
+//            int temp = num2;
+//            num2 = num1;
+//            num1 = temp;
+//        }
+//        if (num2 < num3) {
+//            int temp = num3;
+//            num3 = num2;
+//            num2 = temp;
+//        }
+//        if (num2 > num1) {
+//            int temp = num2;
+//            num2 = num1;
+//            num1 = temp;
+//        }
+//        System.out.print(num1 + " " + num2 + " " + num3);
     }
 }
