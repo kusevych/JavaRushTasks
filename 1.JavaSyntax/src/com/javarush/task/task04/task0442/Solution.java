@@ -13,11 +13,10 @@ public class Solution {
         int res = 0;
         while (true) {
             int num = Integer.parseInt(reader.readLine());
+            res += num;
             if (num == -1) {
-                res += num;
                 break;
             }
-            else res += num;
         }
         System.out.println(res);
     }
