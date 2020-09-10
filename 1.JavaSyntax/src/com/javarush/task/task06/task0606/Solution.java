@@ -20,11 +20,11 @@ public class Solution {
         while (num > 0) {
             rem = num % 10;
             if (rem % 2 == 0)
-                even++;
+                Solution.even++;
             else
-                odd++;
+                Solution.odd++;
             num /= 10;
         }
-        System.out.println("Even: " + even + " Odd: " + odd);
+        System.out.println("Even: " + Solution.even + " Odd: " + Solution.odd);
     }
 }
