@@ -29,6 +29,9 @@ public class Solution {
                 count = 1;
             }
         }
+        if (max < count) {
+            max = count;
+        }
         System.out.println(max);
     }
 }
